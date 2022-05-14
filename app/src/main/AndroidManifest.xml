@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sistema_covid19">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sistema_Covid19">
+        <activity
+            android:name=".Procurar_Paciente"
+            android:exported="false" />
+        <activity
+            android:name=".tela_listar_risco"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Listar_Pac"
+            android:exported="false" />
+        <activity
+            android:name=".tela_cad_pac"
+            android:exported="false" />
+        <activity
+            android:name=".tela_apos_login"
+            android:exported="false" />
+        <activity
+            android:name=".tela_cad_usr"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

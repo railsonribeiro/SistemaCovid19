@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cadastro de Pacientes com Covid-19</string>
+    <string name="btn_inicial_1">Login</string>
+    <string name="btn_inicial_2">Cadastrar Usuário</string>
+    <string name="btn_inicial_3">Sair</string>
+    <string name="btn_login_cdt_pac">Cadastrar Paciente</string>
+    <string name="btn_login_list_geral">Listar Todos Pacientes</string>
+    <string name="btn_login_list_gr">Listar Grupo de Risco</string>
+    <string name="btn_login_buscar">Buscar Paciente</string>
+    <string-array name="comorbidades">
+        <item>Obesidade Morbida</item>
+    </string-array>
+</resources>
+

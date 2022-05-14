@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela_cad_pac">
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_pac_nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="nome completo"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/et_pac_cpf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="CPF"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_pac_fone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="telefone"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/et_pac_datanasc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="data de nascimento"
+                    android:inputType="date" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Digite seu endereço completo"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_pac_rua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="nome da rua"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/et_pac_numerocasa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="número da casa"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_pac_bairrro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="nome do bairro"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/et_pac_cidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="cidade"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/et_pac_sigla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Estado (sigla)"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/et_pac_cep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="CEP"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_pac_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="e-mail"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/et_pac_comorb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="comorbidade (opcional)"
+                    android:inputType="textPersonName" />
+
+
+                <Button
+                    android:id="@+id/btn_conf_cad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="144dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="144dp"
+                    android:onClick="inserir_pac"
+                    android:text="Confirmar" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
